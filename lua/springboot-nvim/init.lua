@@ -3,7 +3,7 @@ local springboot_nvim_ui = require("springboot-nvim.ui.springboot_nvim_ui")
 require("create_springboot_project")
 
 local lspconfig = require("lspconfig")
-local jdtls = require("jdtls")
+local jdtls = require('java.utils.jdtls')
 
 local function incremental_compile()
 	jdtls.compile("incremental")
